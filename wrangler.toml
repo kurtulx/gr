@@ -1,4 +1,4 @@
-name = "site-siren"
+name = "SIRENTOD"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -7,17 +7,12 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "siren.afrcloud.site", custom_domain = true },
-  { pattern = "support.zoom.us.siren.afrcloud.site", custom_domain = true },
-  { pattern = "ava.game.naver.com.siren.afrcloud.site", custom_domain = true },
-  { pattern = "graph.instagram.com.siren.afrcloud.site", custom_domain = true },
-  { pattern = "df.game.naver.com.siren.afrcloud.site", custom_domain = true },
-  { pattern = "zoomgov.com.siren.afrcloud.site", custom_domain = true }
+  { pattern = "testo.v-nt.site", custom_domain = true }
   ]
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "6aeaffa10ea24a0ebabf74ff132cb8dd"
+id = "9ccf2be39540488db41e704c1fe625f5"
 
 [build]
 command = "cargo install -q worker-build && worker-build --release"
@@ -26,8 +21,8 @@ command = "cargo install -q worker-build && worker-build --release"
 build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
-UUID = "bbbbbbbb-cccc-4ddd-eeee-ffffffffffff"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/SirenWeb/refs/heads/main/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/SirenWeb/refs/heads/main/web/sub.html"
-LINK_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/SirenWeb/refs/heads/main/web/link.html"
-CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/AFRcloud/SirenWeb/refs/heads/main/web/converter.html"
+UUID = "fccdaaae-af39-41a7-9fde-fd32a48278cf"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/sub.html"
+LINK_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/link.html"
+CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/converter.html"
