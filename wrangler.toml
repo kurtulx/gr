@@ -1,4 +1,4 @@
-name = "sirentod"
+name = "sirenmek"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -7,7 +7,7 @@ workers_dev = true
 
 routes = [
 
-  { pattern = "testo.v-nt.site", custom_domain = true }
+  { pattern = "testod.v-nt.site", custom_domain = true }
   ]
 
 [[kv_namespaces]]
@@ -22,7 +22,7 @@ build = { command = "cargo install -q worker-build && worker-build --dev" }
 
 [vars]
 UUID = "fccdaaae-af39-41a7-9fde-fd32a48278cf"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/index.html"
+MAIN_PAGE_URL = "https://www.google.com"
 SUB_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/sub.html"
 LINK_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/link.html"
 CONVERTER_PAGE_URL = "https://raw.githubusercontent.com/kurtulx/SirenWeb/refs/heads/main/web/converter.html"
